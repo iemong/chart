@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "public/js",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "typeRoots": [
+      "node_modules/@types",
+      "./src/types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
